@@ -13,4 +13,5 @@ script:
   - python -m unittest
 
   # Build Application
+  - docker build .
 
