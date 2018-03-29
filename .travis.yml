@@ -19,8 +19,8 @@ script:
   # Automated Tests (unit, integration, etc)
   - python core/tests.py
 
-  # Continuous Pipeline
-  - scripts/automated_pipeline.sh
+#  # Continuous Pipeline
+#  - scripts/automated_pipeline.sh
 
 deploy:
   - provider: script
