@@ -8,3 +8,5 @@ RUN apk update && \
     apk add --update --no-cache alpine-sdk libxml2-dev libxslt-dev
 
 COPY . .
+
+RUN pip install -r requirements.txt
