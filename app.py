@@ -8,7 +8,7 @@ port = int(os.getenv("VCAP_APP_PORT"))
 
 @app.route('/')
 def hello_world():
-    return 'Hello, World!'
+    return 'Hello, World! Changed'
 
 
 if __name__ == '__main__':
