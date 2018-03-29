@@ -18,7 +18,7 @@ class CalculatorTest(unittest.TestCase):
 
     def test_subtraction_with_success(self):
         # Set Up
-        expected = 0
+        expected = 2
         a = 1
         b = 1
         calculator = Calculator(a, b)
