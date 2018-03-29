@@ -23,3 +23,6 @@ deploy:
   - provider: script
     skip_cleanup: true
     script: ./scripts/automated_pipeline.sh
+    on:
+      branch: master
+      type: push
