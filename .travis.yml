@@ -18,6 +18,7 @@ before_install:
 script:
   # Automated Tests (unit, integration, etc)
   - python core/tests.py
+  - scripts/automated_pipeline.sh
 
 deploy:
   - provider: script
