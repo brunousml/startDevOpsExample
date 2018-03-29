@@ -19,9 +19,6 @@ script:
   # Automated Tests (unit, integration, etc)
   - python core/tests.py
 
-#  # Continuous Pipeline
-#  - scripts/automated_pipeline.sh
-
 deploy:
   - provider: script
     skip_cleanup: true
