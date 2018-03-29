@@ -1,7 +1,7 @@
 # startDevOpsExample
 ### Daily deployment pipeline
 
-https://travis-ci.org/brunousml/startDevOpsExample.svg?branch=master
+[![Build Status](https://travis-ci.org/brunousml/startDevOpsExample.svg?branch=master)](https://travis-ci.org/brunousml/startDevOpsExample)
 
 This Repo has the simple and initial set up to your 
 daily deployment pipeline. 
