@@ -3,7 +3,7 @@ import os
 
 app = Flask(__name__)
 
-port = os.getenv("VCAP_APP_PORT", 5000)
+port = os.getenv("VCAP_APP_PORT")
 
 
 def root_dir():
